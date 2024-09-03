@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+body{
+    font-family: "Sora";
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #FDB32f;
+    padding: 4px 0;
+    background-color: #0F315C;
+}
+
+
+header{
+    background-color: #0F315C;
+    padding: 50px;
+    padding-top: 24px;
+}
+
+
+h1{
+    font-size: 36px;
+    color: #4CC8FF;
+}
+
+
+h2{
+    font-size: 24px;
+    color: #ffffff;
+}
+
+
+p{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+
+button{
+    background-color: #0F315C;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 1000px;
+}
+
+
+main{
+    padding: 50px;
+}
+
+
+.contato{
+    justify-content: space-around;
+}
+
+
+.redes-sociais{
+    padding-left: 10px;
+    
+}
+
+
+.redes-sociais a{
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+
+footer{
+    background-color: #0b417f;
+    color: white;
+    padding: 0px;
+    border-top: 3px solid #FDB32f;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: linear-gradient(90deg, #2752c1);
+    
+}
+
+footer p{
+    max-width: 30%; }
+
+
+b{
+    color: #FDB32f;
+}
+
+
+small{
+    color: white;
+}
+
+.logo{
+    padding-right: 1000px;
+}
+
+.plug{
+  height: 40px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #0F315C;
+  margin-top: -30px;
+
+  background-image: url(https://raw.githubusercontent.com/awescolar/aw-2024/master/background/img/vector.png), url(https://raw.githubusercontent.com/awescolar/aw-2024/master/background/img/vector-2.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: center left, center right;
+
+}
+
+section hr{
+    margin-top: 24px;
+    border: 2px solid #FDB32f;
+}
+
+header .seta1{
+    padding-right: 490px;
+}
+
+header .designer{
+    padding-right: 1000px;
+    float: inline-end ;
+}
+
+header .seta2{
+    padding-left: 450px;
+}
+
+header .programador{
+    padding-left: 430px;
+}
+
+.contatos{
+    border-bottom: 2px solid #2752c1;
+
+}
