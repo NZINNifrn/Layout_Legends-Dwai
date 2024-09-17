@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Final</title>
+    <link rel="stylesheet" href="projetofinal.css">
+   
+</head>
+<body>
+    
+   <main>
+    <header>
+        <h1>5</h1>
+        <div class="cabeçalho">
+            <h2>Aulas de Campo</h2>
+            <small>Últimas aulas previstas</small>
+        </div>
+    </header>
+
+
+    <section class="line">
+    </section>
+
+
+    <section>
+        <div>
+            <img class="calendar" src="imagens/calendar.webp" alt="">
+            <p>26 de outubro de 2024 | Visita ao museu de Natal/RN</p>
+        </div>
+
+        <img class="seta" src="imagens/arrow.webp" alt="">
+
+
+
+        <div class="matricula">
+            <p>Responsável <br> <b>Prof. Pedro Baesse</b></p>
+            <p>Matrícula: <br> <b>473894829</b></p>
+        </div>
+
+
+        <div>
+            <img class="calendar" src="imagens/calendar.webp" alt="">
+            <p>26 de Novembro de 2024 | Visita ao museu de Natal/RN</p>
+        </div>
+
+        <img class="seta" src="imagens/arrow.webp" alt="">
+
+
+        <div>
+            <img class="calendar" src="imagens/calendar.webp" alt="">
+            <p>26 de outubro de 2024 | Visita ao museu de Natal/RN</p>
+        </div>
+
+        <img class="seta" src="imagens/arrow.webp" alt="">
+
+    </section>
+
+
+    <section class="line">
+    </section>
+
+
+    <p>Mostrando 3 de 5 aulas</p>
+
+
+    <footer>
+        <button><p>VER AULAS ANTERIORES</p></button>
+    </footer>
+   </main>
+</body>
+</html>
+
+
+body{
+    font-family: "Inter", sans-serif;
+    width: 60%;
+    padding-left: 250px;
+}
+
+main{
+    border: 4px solid #f1f1f1;
+    background-color: #ffffff;
+    max-width: 87%;
+    padding-left: 80px;
+}
+
+header h1{
+    color: #12b764;
+    font-size: 130px;
+}
+
+.line{
+    border: 1px solid #f1f1f1;
+}
+
+section{
+    margin-top: 60px;
+}
+
+
+.cabeçalho{
+    padding-left: 120px;
+    text-align: 100px;
+    margin-top: -200px;
+}
+
+
+
+
+footer{
+    padding-left: 600px;
+    margin: 30px;
+
+}
+
+
+button{
+    background-color: #12b764;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 10px solid #12b764;
+    max-width: 8 0%;
+}
+
+
+button p{
+    color: #ffffff;
+    font-size: 12px;
+    margin-top: 1px;
+    padding-left: 0px;
+
+}
+
+
+p{
+    color: #656d77;
+    margin-top: -22px;
+    padding-left: 50px;
+}
+
+.matricula{
+    background-color: #f1f1f1;
+    min-width: 100%;
+    max-width: 90%;
+    padding-right: 1px;
+
+}
+
+
+.matricula p{
+    padding: 10px;
+
+}
+
+.seta{
+    padding-left: 800px;
+    height: 30px;    
+
+}
+
+.calendar{
+    height: 30px;
+}
+
+small{
+    font-size: 15px;
+}
