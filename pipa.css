@@ -1,0 +1,17 @@
+body {
+    font-family: "Lato";
+}
+
+div {
+    margin: 100px 100px 100px 100px;
+}
+
+img {
+    width: 160px;
+}
+
+p {
+    font-size: 12px;
+    text-align: center, left;
+    margin-top: 25px;
+}
