@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="flex.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <p id="p1">*</p>
+            <p id="p2">Intermediário</p>
+            <p id="p3">CSS</p>
+
+        </header>
+
+        <h1>Background</h1>
+
+        <h3>OBJETIVOS</h3>
+
+        <div class="objetivo">
+            <p>Ser capaz de entender as propriedades e controlá-las em contextos diferentes. Com múltiplos backgrounds, alinhamento e tamanhos diferentes.</p>
+        </div>
+
+        <h3>CONTEÚDOS</h3>
+
+        <ul>
+            <li>background com cores e tamanhos</li>
+            <li>backgrounds com ou sem imagens</li>
+            <li>múltiplos backgrounds</li>
+            <li>controle de posicionamento de backgrounds</li>
+        </ul>
+
+        <div id="container">
+            <p>background-color</p>
+            <p>background-image</p>
+            <p>background-repeat</p>
+            <p>background-attachment</p>
+            <p>background-position</p>
+            <p>background-clip</p>
+            <p>background-origen</p>
+            <p>background-size</p>
+
+        </div>
+    </div>
+</body>
+</html>		
+
+
+.container{
+    border: 1px solid #F1F1F1 ;
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.25);
+    width: 450px;
+    height: 800px;
+    flex-shrink: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    position: relative;
+    left: 250px;
+}
+
+h1{
+    border-bottom: 1px solid ;
+    margin: 25px;
+    padding: 10px;
+
+    position: relative;
+    top: -100px;
+}
+
+header p{
+    border-radius: 50px;
+    display: flex;
+}
+
+header{
+    padding-left: 30px;
+}
+#p1{
+    background-color: #828282;
+    display: flex;
+    padding: 2px 7px 4px 7px;
+    align-items: flex-start;
+    gap: 10px;
+    width: 12px;
+    text-align: center;
+    color: white;
+
+}
+
+#p2{
+    background-color: #2D9CDB;
+    display: flex;
+    padding: 2px 7px 4px 7px;
+    align-items: flex-start;
+    gap: 10px;
+    color: white;
+    width: 90px;
+    position: relative;
+    top: -40px;
+    left: 30px;
+}
+
+#p3{
+    background-color: #FFC460 ;
+    display: flex;
+    padding: 2px 7px 4px 7px;
+    gap: 10px;
+    align-items: flex-start;
+    width: 30px;
+    font-size: 15px;
+    position: relative;
+    top: -80px;
+    left: 140px;
+}
+
+.objetivo{
+    position: relative;
+    left: 30px;
+    top: -100px;
+    color: #727272;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 370px;
+}
+
+h3{
+    padding-left: 28px;
+    position: relative;
+    top: -96px;
+}
+
+ul{
+    color: #828282;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    position: relative;
+    top: -100px;
+}
+
+#container{
+    border: 1px solid;
+    background-color: #BDBDBD;
+    color: #727272;
+    border-radius: 10px;
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    align-self: stretch;
+    line-height: 1px;
+    width: 80%;
+    position: relative;
+    left: 25px;
+    top: -100px;
+}
