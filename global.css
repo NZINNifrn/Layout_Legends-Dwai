@@ -1,0 +1,151 @@
+.biblioteca, main, span, .conteudo1, .conteudo2, .conteudo3{
+    display: flex;
+    flex-direction: column;
+}
+
+.biblioteca, nav, main{
+    width: 1400px;
+}
+
+span{
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo1, .conteudo2, .conteudo3{
+    justify-content: space-between;
+}
+
+.conteudo2 h2{
+    position: relative;
+    top: -1400px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#fd1, #fd2, #fd3, #fd4, #fd5, #fd6, 
+#uxd1, #uxd2, #uxd3, #uxd4, #uxd5, #uxd6, 
+#uxd7, #uxd8, #uxd9, #dp1, #dp2, #dp3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 300px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    position: relative;
+}
+
+#fd3, #fd4{
+    position: relative;
+    top: -710px;
+    left: 470px;
+}
+
+#a3, #a4{
+    position: relative;
+    top: -760px;
+    left: 510px;
+
+}
+
+#fd5, #fd6{
+    position: relative;
+    top: -1420px;
+    left: 940px;
+}
+
+#a5, #a6{
+    position: relative;
+    top: -1480px;
+    left: 990px;
+}
+
+#uxd1, #uxd2, #uxd3{
+    position: relative;
+    top: -1400px;
+    left: 1px;
+}
+
+#b1, #b2, #b3{
+    position: relative;
+    top: -1461px;
+    left: 520px;
+}
+
+#uxd4, #uxd5, #uxd6{
+    position: relative;
+    top: -2465px;
+    left: 470px;
+}
+
+#b4, #b5, #b6{
+    position: relative;
+    top: -2530px;
+    left: 50px;
+}
+
+#uxd7, #uxd8, #uxd9{
+    position: relative;
+    top: -3530px;
+    left: 940px;
+}
+
+#b7, #b8, #b9{
+    position: relative;
+    top: -3590px;
+    left: 990px;
+}  
+
+.conteudo3 h2{
+    position: relative;
+    top: -3500px;}
+
+#dp1{
+    position: relative;
+    top: -3500px; 
+}
+
+#c1{
+    position: relative;
+    top: -3560px; 
+}
+
+#dp2{
+    position: relative;
+    top: -3855px; 
+    left: 470px;
+}
+
+#c2{
+    position: relative;
+    top: -3915px; 
+    left: 520px;
+}
+
+#dp3{
+    position: relative;
+    top: -4210px; 
+    left: 940px;
+}
+
+#dp3 img{
+   margin-top: -70px;
+}
+
+#c3{
+    position: relative;
+    top: -4270px; 
+    left: 980px;
+}
+
+small{
+    color: gray;
+}
