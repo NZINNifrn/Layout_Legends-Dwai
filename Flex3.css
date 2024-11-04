@@ -1,0 +1,113 @@
+#LOGO {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 80px;
+    position: relative;
+    top: 1px;
+}
+
+.Cabeçalho a{
+    text-decoration: none;
+    color: black;
+    padding: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: 800px;
+    top: -50px;
+
+}
+
+.Cabeçalho2{
+    background-color: white;
+    padding: 25px;
+    width: 1500px;
+}
+
+.Cabeçalho2 a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: 50px;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    height: 140px;
+    position: relative;
+    right: 20px;
+    padding-left: 30px;
+}
+
+nav h1 {
+    font-size: 35px;
+    padding-left: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav p {
+    font-size: 15px;
+    padding-left: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul a {
+    padding: 4px;
+    border: 1px solid;
+    text-decoration: none;
+    background-color: white;
+    color: gray;
+    margin: 30px;
+}
+
+main{
+    position: relative;
+    top: 70px;
+}
+
+main ul a{
+    position: relative;
+    top: -115px;
+    left: 70px;
+    color: gray;
+    width: 40%;
+}
+
+.biblioteca {
+    background-color: #f2f2f2;
+    height: 80px;
+    padding: 20px;
+    margin: 0px;
+}
+
+/* Conteúdo Cards */
+#fd1 img, #fd2 img, #fd3 img, #fd4 img, #fd5 img, #fd6 img, 
+#uxd1 img, #uxd2 img, #uxd3 img, #uxd4 img, #uxd5 img, #uxd6 img, 
+#uxd7 img, #uxd8 img, #uxd9 img, #dp1 img, #dp2 img, #dp3 img{
+    padding: 10px;
+    height: 220px;
+    position: relative;
+    right: 130px;
+    top: 110px;
+}
+
+#fd1 p, #fd2 p, #fd3 p, #fd4 p, #fd5 p, #fd6 p, 
+#uxd1 p, #uxd2 p, #uxd3 p, #uxd4 p, #uxd5 p, #uxd6 p, 
+#uxd7 p, #uxd8 p, #uxd9 p, #dp1 p, #dp2 p, #dp3 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 10px;
+    width: 55%;
+    position: relative;
+    left: 100px;
+    top: -100px;
+}
+
+span a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lightgray;
+    position: relative;
+    top: -50px;
+    left: 50px;
+}
