@@ -1,4 +1,4 @@
-.biblioteca, main, span, .conteudo1, .conteudo2, .conteudo3{
+.biblioteca, main, span{
     display: flex;
     flex-direction: column;
 }
@@ -14,12 +14,17 @@ span{
 
 .conteudo1, .conteudo2, .conteudo3{
     justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
 }
 
 .conteudo2 h2{
     position: relative;
     top: -1400px;
 }
+
 nav ul{
     display: flex;
     align-items: center;
