@@ -15,8 +15,13 @@
     width: 840px;
     height: 57px;
     position: relative;
+<<<<<<< HEAD
     left: 1px;
     top: 30px;
+=======
+    left: 38px;
+    top: 750px;
+>>>>>>> 79899c1a25d9eeaaa8157a9cfb90cfd63122a4c2
     gap: 12px;
     padding: 5px;
     justify-content: center;
@@ -49,8 +54,11 @@ small{
     height: 181px;
     border-radius: 10px;
     background-color: #2f80ed;
+<<<<<<< HEAD
     position: relative;
     top: 60px;
+=======
+>>>>>>> 79899c1a25d9eeaaa8157a9cfb90cfd63122a4c2
 }
 
 .container p{
@@ -120,8 +128,11 @@ button{
 
 .group-cards1{
     margin: 30px;
+<<<<<<< HEAD
     position: relative;
     top: 50px;
+=======
+>>>>>>> 79899c1a25d9eeaaa8157a9cfb90cfd63122a4c2
 }
 
 .group-cards1 img{
@@ -237,7 +248,11 @@ button{
 
 .group-cards2{
     position: relative;
+<<<<<<< HEAD
     bottom: 90px;
+=======
+    bottom: 120px;
+>>>>>>> 79899c1a25d9eeaaa8157a9cfb90cfd63122a4c2
 }
 
 #title{
@@ -248,12 +263,20 @@ button{
     font-weight: 500;
     line-height: normal;
     position: relative;
+<<<<<<< HEAD
     top: 10px;
+=======
+    top: 5px;
+>>>>>>> 79899c1a25d9eeaaa8157a9cfb90cfd63122a4c2
 }
 
 span#seta{
     position: relative;
+<<<<<<< HEAD
     bottom: 20px;
+=======
+    bottom: 27px;
+>>>>>>> 79899c1a25d9eeaaa8157a9cfb90cfd63122a4c2
     left: 790px;
 }
 
@@ -348,4 +371,8 @@ img#heart{
     display: flex;
     padding: 12px;
     width: 15px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 79899c1a25d9eeaaa8157a9cfb90cfd63122a4c2
