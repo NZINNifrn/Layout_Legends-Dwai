@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.menu2{
+    width: 240px;
+    height: 1040px;
+    position: relative;
+    bottom: 1040px;
+    left: 60px;
+    color: #ffffff;
+    background-color: #ffffff;
+    position: relative;
+    left: 1155px;
+    bottom: 2080px;
+}
+
+.menu2 h2{
+    font-size: 16px;
+    font-weight: 500;
+    color: #202020;
+    font-family: Inter;
+    padding-top: 20px;
+}
+
+#icons2{
+    width: 20px;
+    height: 20px;
+    float: right;
+    position: relative;
+    bottom: 30px;
+    right: 20px;
+}
+
+#icons3{
+    width: 20px;
+    height: 20px;
+    float: right;
+    position: relative;
+    top: 10px;
+    right: 25px;
+    border: 1px solid #9E9E9E;
+    border-radius: 50px;
+    padding: 10px;
+    margin-left: 25px;
+}
+
+figure #icons3{
+    position: relative;
+    right: 120px;
+    top: -30px;
+}
+
+#lobo{
+    position: relative;
+    right: 10px;
+}   
+
+#descricao{
+    color: #7E7E7E;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    right: 20px;
+}
+
+#mais{
+    color: #2F80ED;
+    font-family: Inter;
+    background-color: #BFDAFF;
+    border-radius: 4px;
+    padding: 8px 12px;
+    position: relative;
+    right: 20px;
+    padding-left: 65px;
+}
+
+td#esporte{
+    color: #202020;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 15px;
+}
+
+td#local-horario{
+    font-family: Inter;
+    color: #5F5F5F;
+    font-size: 10px;
+    font-weight: 400;
+    position: relative;
+    right: 75px;
+    top: 25px;
+}
+
+td img{
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 5px;
+}
+
+#button{
+   background-color: #2F80ED;
+   font-size: 10px;
+   position: relative;
+   right: 55px;
+   top: 10px;
+   padding: 4px 8px;
+}
+
+#button1{
+    background-color: #2F80ED;
+    font-size: 10px;
+    position: relative;
+    right: 99px;
+    top: 10px;
+
+    padding: 4px 8px;
+}
+
+.menu2 table{
+    position: relative;
+    bottom: 30px;
+}
+
+#menu2-h2{
+    position: relative;
+    top: 35px;
+}
+
+#calendar{
+    width: 9px;
+    height: 10px;
+    float: right;
+    position: relative;
+    bottom: 55px;
+    right: 10px;
+    border: 1px solid #9E9E9E;
+    border-radius: 50px;
+    padding: 7px;
+}
+
+.graph{
+    position: relative;
+    bottom: 50px;
+    right: 0px;
+}
+
+#div1, #div1-1, #div1-2, #div1-3, #div1-4{
+    height: 18.557px;
+    width: 31.2px;
+    background-color: #2F80ED;
+    position: relative;
+    top: 210px;
+}
+
+#div2, #div2-1, #div2-2, #div2-3, #div2-4{
+    height: 9.278px;
+    width: 31.2px;
+    background-color: #68A8FF;
+    position: relative;
+    bottom: 9px;
+}
+
+#div3, #div3-1, #div3-2, #div3-3, #div3-4{
+    height: 12px;
+    width: 31.2px;
+    background-color: #BFDAFF;
+    position: relative;
+    bottom: 12px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+#div1-1{
+    position: relative;
+    left: 40px;
+    top: 164.2px;
+    height: 46px;
+}
+
+#div2-1{
+    position: relative;
+    bottom: 17px;
+    height: 17.152px;
+    background-color: #68A8FF;
+}
+
+#div3-1{
+    position: relative;
+    bottom: 8px;
+    height: 8.276px;
+    background-color: #BFDAFF;
+}
+
+#div1-2{
+    position: relative;
+    left: 80px;
+    top: 124px;
+    height: 40.206px;
+}
+
+#div2-2{
+    position: relative;
+    bottom: 21px;
+    height: 21.01px;
+    background-color: #68A8FF;
+}
+
+#div3-2{
+    position: relative;
+    bottom: 28px;
+    height: 28px;
+    background-color: #BFDAFF;
+}
+
+#div1-3{
+    position: relative;
+    left: 120px;
+    top: 35px;
+    height: 40.206px;
+}
+
+#div2-3{
+    position: relative;
+    top: 39px;
+    height: 50px;
+    background-color: #68A8FF;
+}
+
+#div3-3{
+    position: relative;
+    bottom: 50px;
+    height: 11.392px;
+    background-color: #BFDAFF;
+}
+
+#div1-4{
+    position: relative;
+    left: 160px;
+    top: 25px;
+    height: 50px;
+}
+
+#div2-4{
+    position: relative;
+    top: 38px;
+    height: 20.294px;
+    background-color: #68A8FF;
+}
+
+#div3-4{
+    position: relative;
+    bottom: 55px;
+    height: 17px;
+    background-color: #BFDAFF;
+}

@@ -6,9 +6,11 @@ body{
 
 .bloco{
     width: 860px;
-    background-color: #f9f9f9;
+    height: 1040px;
+    background-color: #ffffff;
     position: relative;
     left: 300px;
+    top: 31px;
 }
 
 .titulo{
