@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.menu1{
+    width: 240px;
+    height: 1040px;
+    position: relative;
+    bottom: 1390px;
+    left: 60px;
+    color: #ffffff;
+    background-color: #ffffff;
+}
+.menu1 h1{
+    color: #202020;
+    font-family: Inter;
+    font-size: 22px;
+    flex: 1 0 0;
+    position: relative;
+    top: 50px;
+}
+.menu1 h2{
+    color: #202020;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    flex: 1 0 0;
+    position: relative;
+    top: 35px;
+    left: 25px;
+    margin: 0.1em;
+}
+#semadec{
+    height: 40px;
+    width: 146px;
+    flex-shrink: 0;
+    position: relative;
+    top: 30px;
+}
+#icons{
+    width: 13.333px;
+    height: 10.667px;
+    stroke: black;
+    stroke-width: black;
+    position: relative;
+    top: 55px;
+}
+.menu1 strong{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    color: #202020;
+    margin: 7px;
+    position: relative;
+    top: 15px;
+}
+.menu1 span{
+    color: #7e7e7e;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Inter;
+    position: relative;
+    top: 30px;
+    right: 100px;
+}
+#perfil{
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    padding-top: 20px;
+    position: relative;
+    top: 30px;
+}
+#s1{
+    padding-left: 22px;
+}
+#s2{
+    padding-left: 30px;
+}
+#sistema{
+    position: relative;
+    top: 200px;
+}

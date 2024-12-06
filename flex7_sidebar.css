@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    background-color: lightgrey;
+}
+
+.site{
+    position: relative;
+    left: 335px;
+}
+
+.search{
+    border: 1px solid rgb(204, 204, 204, 0.80);
+    border-radius: 8px;
+    padding: 20px 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px 0px rgb(204, 204, 204, 0.80);
+    width: 800px;
+    height: 15px;
+}
+
+.search p{
+    font-size: 14px;
+    font-family: Inter;
+    color: rgb(204, 204, 204, 0.80);
+    font-weight: 500;
+    position: relative;
+    top: -0px;
+    right: 30px;
+}
+
+.search img{
+    width: 16px;
+    height: 22px;
+}
+
+.banner{
+    height: 181px;
+    background-color:#2F80ED;
+    border-radius: 20px;
+    width: 835px;
+}
+
+.banner #vector{
+    float: right;
+    position: relative;
+    bottom: 110px;
+    right: 4px;
+}
+
+.banner h1, p{
+    color: #fff;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;
+    padding-left: 30px;
+    width: 70%;
+    position: relative;
+    top: 20px;
+}
+
+.banner p{
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.banner button{  
+    background-color: #2f2f2f;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 40px;
+    padding-right: 50px;
+    position: relative;
+    top: 15px;
+    left: 25px;
+}
+
+.banner #play{
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 6px;
+    position: relative;
+    top: 21px;
+    right: 20px;
+    height: 10px;
+    width: 10px;
+}
+
+.group-cards1 img{
+    padding: 12px;
+    border-radius: 50px;
+    height: 16px;
+    width: 16px;
+    background-color: #BFDAFF;
+    position: relative;
+    right: 50px;
+}
+
+.group-cards1 strong{
+    color: #5f5f5f;
+    font-size: 12px;
+    font-family: Inter;
+    position: relative;
+    right: 40px;
+}
+
+.group-cards1 small{
+    color: #2667BF;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: lighter;
+    color: #5f5f5f;
+}
+
+.group-cards1 #more{
+    background-color: #fff;
+    position: relative;
+    left: 60px;
+}
+
+.container{
+    background-color: #fdfdfd;
+    border-radius: 12px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 260px;
+}
+
+.container#c1{
+    position: relative;
+    top: 55px;
+}
+
+.container#c1 img{
+    background-color: #2F80ED;
+}
+
+.container#c1 #more{
+    background-color: #FFF;
+}
+
+.container#c1 strong{
+    color: #2F80ED;
+}
+
+.container#c2{
+    position: relative;
+    left: 289px;
+    bottom: 5px;
+}
+
+.container#c3{
+    position: relative;
+    left: 575px;
+    bottom: 65px;
+}
+
+.group-cards2{
+    position: relative;
+    bottom: 40px;
+}
+.group-cards2 figure{
+    height: 113px;
+    align-self: stretch;
+    border-radius: 12px;
+    position: relative;
+    top: 110px;
+    right: 43px;
+}
+
+.card{
+    border-radius: 20px;
+    background-color: #FFF;
+    padding: 12px;
+    box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    flex: 1 1 0;
+    height: 200px;
+    width: 240px;
+}
+
+.card h2{
+    color: #202020;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    top: 10px;
+}
+
+#card1{
+    position: relative;
+    bottom: 35px;
+}
+
+#card2{
+    position: relative;
+    left: 285px;
+    bottom: 225px;
+}
+
+#img2{
+    position: relative;
+    bottom: 35px;
+}
+
+#card3{
+    position: relative;
+    left: 570px;
+    bottom: 450px;
+}
+
+#img3{
+    position: relative;
+    bottom: 34px;
+}
+
+.card p{
+    background-color: rgba(191, 218, 255, 0.25);
+    height: 15px;
+    padding: 3px;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: Inter;
+    color: #2667BF;
+    position: relative;
+    top: 30px;
+    width: 70px;
+    border-radius: 50px;
+}
+
+#H1{
+    height: 6px;
+    border-radius: 20px;
+    background-color: #2667BF;
+    width: 110px;
+    padding: 3px;
+    position: relative;
+    bottom: 25px;
+}
+
+#H2{
+    height: 6px;
+    border-radius: 20px;
+    background-color: #BFDAFF;
+    width: 110px;
+    padding: 3px;
+    position: relative;
+    bottom: 84px;
+    left: 112px;
+}
+
+.group-cards2 span{
+    position: relative;
+    left: 780px;
+    bottom: 35px;
+}
+
+#novidades{
+    color: #202020;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.section{
+    position: relative;
+    bottom: 470px;
+    left: 5px;
+    width: 830px;
+    background-color: #FFF;
+    border-radius: 12px 12px 0px 0px;
+    box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
+}
+
+.section1{
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+.section1 a{
+    position: relative;
+    left: 740px;
+    bottom: 33px;
+}
+
+.section #titulo{
+   color: #3F3F3F;
+   font-family: Inter;
+   font-size: 12px;
+   font-weight: 600;
+   position: relative;
+   right: 5px;
+   bottom: 30px;
+}
+
+#T{
+    padding-left: 178px;
+    position: relative;
+    right: 1px;
+}
+
+#jogo{
+    color: #202020;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: Inter;
+    padding-top: 20px;
+    position: relative;
+    left: 30px;
+    bottom: 30px;
+}
+
+#placar{
+    color: var(--color-gray-100, #202020);
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+    left: 80px;
+    bottom: 15px;
+}
+
+#times{
+    color: #2667BF;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: Inter;
+    position: relative;
+    left: 150px;
+    bottom: 30px;
+    padding-top: 25px;
+}
+
+#detalhes{
+    color: #2667BF;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: Inter;
+    position: relative;
+    bottom: 15px;
+    left: 165px;
+}
+
+.section img{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    border-radius: 50px;
+}
+
+#i1{
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+
+#i2{
+    position: relative;
+    top: 80px;
+}
