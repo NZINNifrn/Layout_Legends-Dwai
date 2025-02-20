@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+}  
+
+header{  
+    background-color: #068502;  
+    color: white;  
+    padding: 20px;  
+    text-align: center;  
+    font-size: 30px;
+}  
+
+header img{
+    mix-blend-mode: multiply;
+    filter: sepia(100%);
+
+}
+
+header p{
+    text-align: left;
+    width: 60%;
+    font-size: 30px;  
+    line-height: 60px;
+    margin-left: 470px;
+}
+
+.button{  
+    background-color: blue;  
+    color: white;  
+    padding: 10px 20px;  
+    height: 100px;
+    width: 200px;
+    font-size: 30px;
+    border: none;  
+    cursor: pointer;  
+}  
+
+main{  
+    padding: 20px;  
+}  
+
+.section{  
+    margin-bottom: 20px;  
+    padding: 20px;  
+    border: 1px solid #ddd;  
+    border-radius: 5px;
+    font-family: Inter;
+}  
+
+.section img{
+    height: 800px;
+    width: 100%;
+    margin: 0px;
+    box-sizing: 0px;
+
+}
+
+.section p{
+    width: 60%;
+    font-size: 30px;  
+    line-height: 60px;
+    margin-left: 450px;
+}
+
+.section h2{
+    font-weight: 720;
+    margin-left: 450px;
+    font-size: 30px;
+}
+
+.red-section{  
+    background-color: #ffcccc;  
+}
+
+.red-section img{
+    height: 800px;
+    width: 100%;
+}
+
+footer{
+    background-color: black;
+    color: #ddd;
+    height: 80px;
+    display: flex;
+}
+
+footer p{
+    font-size: 20px;  
+    padding: 10px 20px;
+    font-family: Inter;
+    margin-left: 150px;
+}
