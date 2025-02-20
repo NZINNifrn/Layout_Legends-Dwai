@@ -7,6 +7,7 @@ body {
     box-sizing: border-box;
 }  
 
+/* Estilos do Cabeçalho */
 header {  
     background-color: #068502;  
     color: white;  
@@ -19,6 +20,7 @@ header img {
     filter: sepia(100%);
     max-width: 100%;
     height: auto;
+    margin-bottom: -100px;
 }  
 
 header p {
@@ -29,6 +31,7 @@ header p {
     margin: 20px auto;
 }  
 
+/* Botão */
 .button {  
     background-color: blue;  
     color: white;  
@@ -41,16 +44,21 @@ header p {
     border-radius: 5px;
 }  
 
+/* Conteúdo Principal */
 main {  
     padding: 20px;  
 }  
 
+/* Seções */
 .section {  
-    margin-bottom: 20px;  
+    max-width: 80%;
+    margin: 20px auto;
     padding: 20px;  
     border: 1px solid #ddd;  
     border-radius: 5px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }  
 
 .section img {
@@ -59,23 +67,25 @@ main {
     border-radius: 10px;
 }  
 
-.section p {
-    max-width: 80%;
-    font-size: 18px;  
-    line-height: 1.6;
-    margin: 20px auto;
-}  
-
 .section h2 {
     font-weight: 700;
     font-size: 24px;
     text-align: center;
 }  
 
+.section p {
+    max-width: 100%;
+    font-size: 18px;  
+    line-height: 1.6;
+    text-align: left;
+}  
+
+/* Seção Vermelha */
 .red-section {  
     background-color: #ffcccc;  
 }  
 
+/* Rodapé */
 footer {
     background-color: black;
     color: #ddd;
@@ -97,7 +107,6 @@ footer p {
         font-size: 16px;
         max-width: 90%;
         line-height: 1.4;
-        text-align: left;
     }
     
     .section h2 {
