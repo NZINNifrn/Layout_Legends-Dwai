@@ -14,50 +14,6 @@ header {
     color: white;  
     padding: 20px;  
     text-align: center;
-}  
-
-.cadastro {
-    display: flex;
-    justify-content: flex-end;
-    margin: 0px 20px -60px 0px;
-    position: relative;
-}
-
-.fazendo-login {
-    padding: 7px 10px;
-    background-color: rgb(44, 69, 212);  
-    font-size: 15px;
-    color: #ddd;
-    border: none;  
-    cursor: pointer;  
-    display: block;
-    border-radius: 5px;
-    box-shadow: 2px 2px 9px 1px rgb(99, 99, 99);
-    margin-right: 10px;
-}
-
-.fazendo-login:hover {
-    background-color: rgb(44, 69, 212);
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.login {
-    padding: 7px 10px;
-    background-color: rgb(255, 255, 255);  
-    font-size: 15px;
-    border: none;  
-    cursor: pointer;  
-    display: block;
-    border-radius: 5px;
-    box-shadow: 2px 2px 9px 1px rgb(99, 99, 99);
-    margin: 0px 20px 0px 20px;
-}
-
-.login:hover {
-    background-color: rgb(190, 190, 190);
-    font-size: 16px;
-    cursor: pointer;
 }
 
 header img {
@@ -164,26 +120,6 @@ footer p {
         max-width: 90%;
         line-height: 1.4;
         text-align: center;
-    }
-
-    .fazendo-login {
-        font-size: 13px;
-    }
-
-    .fazendo-login:hover {
-        background-color: rgb(44, 69, 212);
-        font-size: 14px;
-        cursor: pointer;
-    }
-
-    .login {
-        font-size: 13px;
-    }
-
-    .login:hover {
-        background-color: rgb(190, 190, 190);
-        font-size: 14px;
-        cursor: pointer;
     }
 
     .button:hover {
