@@ -3,7 +3,7 @@ body {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f4f4f4e8;
     color: #333;
     text-align: center;
 }
@@ -42,8 +42,7 @@ main {
     padding: 20px;
 }
 
-.sobre, .equipe, .missao {
-    background: white;
+.sobre, .equipe, .missao, .equipe-comercio {
     margin: 20px auto;
     padding: 20px;
     border-radius: 10px;
@@ -51,28 +50,22 @@ main {
     max-width: 800px;
 }
 
-.equipe-comercio {
-    background: white;
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-    max-width: 800px;
-}
-
-.sobre p {
+.sobre p, .missao p {
     text-align: justify;
 }
 
-.missao p {
-    text-align: justify;
-}
-
-.equipe .integrantes {
+.equipe .integrantes, .equipe-comercio .integrantes {
     display: flex;
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.equipe-comercio {
+    background-color: rgba(0, 0, 0, 0.822);
+    color: rgba(255, 255, 255, 0.904);
 }
 
 .nossa-equipe {
@@ -85,9 +78,10 @@ main {
 }
 
 .membro img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
+    object-fit: cover;
     margin-bottom: 10px;
 }
 
@@ -101,7 +95,7 @@ footer {
 
 /* Responsividade */
 @media (max-width: 768px) {
-    .sobre, .equipe, .missao {
+    .sobre, .equipe, .missao, .equipe-comercio {
         max-width: 90%;
         padding: 15px;
         text-align: center;
@@ -117,15 +111,11 @@ footer {
         transform: scale(0.9);
     }
 
-    .sobre p {
-        text-align: center;
-    }
-
-    .missao p {
+    .sobre p, .missao p {
         text-align: center;
     }
     
-    .equipe .integrantes {
+    .equipe .integrantes, .equipe-comercio .integrantes {
         flex-direction: column;
         align-items: center;
     }
@@ -135,8 +125,8 @@ footer {
     }
     
     .membro img {
-        width: 80px;
-        height: 80px;
+        width: 100px;
+        height: 100px;
     }
     
     .back-button {

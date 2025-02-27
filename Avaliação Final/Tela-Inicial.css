@@ -115,7 +115,7 @@ footer p {
 
 .sobre {
     color: rgb(190, 190, 190);
-   font-size: 13px;
+    font-size: 14px;
 }
 
 .sobre:hover {
@@ -153,7 +153,11 @@ footer p {
     }
     
     footer p {
-        font-size: 11px;
+        font-size: 12px;
         margin: 5px 0;
+    }
+
+    .sobre {
+        padding: 10px;
     }
 }
